@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    background-color: #eee;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 9.4rem;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    color: black;
+}
+
+.blink {
+    animation: blink 0.4s infinite;
+}
+
+@keyframes blink{
+    to { opacity: .0; }
+}
+
+.flex {
+    display: flex;
+}
+
+.header-sub-title {
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    padding: 0.1em;
+}
+
+.bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.col-sm p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.pages {
+    font-size: 25px !important;
+    padding: 4px;
+}
+
+.pages a {
+    padding: 4px;
+    font-style: italic;
+    text-decoration-color: orange;
+    color: black;
+}
+
+.pages a:hover {
+    background-color: black;
+    text-decoration-style: wavy;
+    color: white;
+}
+
+@media (width <= 600px) {
+    h1 {
+        font-size: 3rem;
+        margin-left: 0;
+    }
+
+    .p-5 {
+        padding-left: 30px !important;
+        padding-top: 70px !important;
+    }
+
+    .ps-5 {
+        padding-left: 15px !important;
+    }
+
+    .header-sub-title {
+        font-size: 15px;
+    }
+
+    .pt-4 {
+        padding-top: 10px !important;
+    }
+
+    .bio {
+        font-size: 16px;
+    }
+
+    .px-5 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .p-4 {
+        padding: 15px !important;
+    }
+
+    .m-4 {
+        margin: 0px !important;
+    }
+
+    .pages {
+        font-size: 20px !important;
+    }
+
+    .col-sm p {
+        font-size: 15px;
+    }
+
+    .socials img{
+        height: 30px;
+    }
+}
